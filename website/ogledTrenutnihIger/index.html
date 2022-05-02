@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="slo">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ogled trenutnih iger</title>
+    <link rel="stylesheet" href="/javno/ogledTrenutnihIger/style.css">
+</head>
+<body>
+    <main class="view-of-games">
+
+    </main>
+    <template class="game-template">
+        <div class="game-view">
+            <p>Ime vs. Ime</p>
+            <ul class="vStack">
+                <ul class="hStack"><button id=1 class=""></button><button id=2 class=""></button><button id=3 class=""></button></ul>
+                <ul class="hStack"><button id=4 class=""></button><button id=5 class=""></button><button id=6 class=""></button></ul>
+                <ul class="hStack"><button id=7 class=""></button><button id=8 class=""></button><button id=9 class=""></button></ul>
+            </ul>
+        </div>
+        </template>
+    <input type="hidden" id="user" value="admin">
+    <input type="hidden" id="pass" value="admin">
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/javno/ogledTrenutnihIger/app.js"></script>
+</body>
+</html>

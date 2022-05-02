@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igralna pološča</title>
+    <link rel="stylesheet" href="/javno/igralnaPlosca/style.css">
+</head>
+<body>
+    <div class="main1">
+        <h2 class="turn-text">Turn: Yours</h2>
+        <h2 class="prikaz-za-igro">You vs. Other</h2>
+    </div>
+    <div class="main">
+        
+        <ul class="vStack">
+            <ul class="hStack"><button id=1></button><button id=2></button><button id=3></button></ul>
+            <ul class="hStack"><button id=4></button><button id=5></button><button id=6></button></ul>
+            <ul class="hStack"><button id=7></button><button id=8></button><button id=9></button></ul>
+        </ul>
+        
+        <ul class="emoji-selection">
+            <li>😂</li>
+            <li>🤬</li>
+            <li>😭</li>
+        </ul>
+        <p class="display-emoji"></p>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/javno/igralnaPlosca/app.js"></script>
+</body>
+</html>

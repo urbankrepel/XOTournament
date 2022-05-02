@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vodilni</title>
+    <link rel="stylesheet" href="/javno/vodilni/style.css">
+</head>
+<body>
+    <input type="hidden" value="admin" id="user">
+    <input type="hidden" id="pass" value="admin">
+    <ul class="lista-igralcev">
+
+    </ul>
+    <p class="playersStatus"></p>
+    <p>Igre:</p>
+    <ul class="lista-vCakalnici"></ul>
+    <button class="start" onclick="start()">Start</button>
+    <button class="ekipe" onclick="razporedVEkipe()">Razporedi v ekipe</button>
+    <button onclick="resetirajEkipe()">Resetiraj ekipe</button>
+    <script src="/javno/vodilni/app.js"></script>
+</body>
+</html>

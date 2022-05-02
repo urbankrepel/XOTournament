@@ -1,0 +1,57 @@
+body {
+    background: rgb(13,0,235);
+    background: linear-gradient(90deg, rgba(13,0,235,1) 0%, rgba(0,255,251,1) 100%);
+}
+
+.glavni {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+}
+
+.input {
+    border: hidden;
+    text-align: center;
+    color: white;
+    background-color: white;
+    height: 20px;
+    width: 200px;
+    font-family: Arial;
+    font-size: 18px;
+    background: none;
+    border-bottom: 2px white solid;
+
+}
+
+.form-prijava{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    text-align: center;
+}
+
+.button {
+    border: 2px white solid;
+    font-family: Arial;
+    width: 200px;
+    background:none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    height: 30px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
